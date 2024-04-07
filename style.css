@@ -20,14 +20,14 @@ button {
   position: absolute;
   inset: 0;
   width: 100%;
-  background-image: url("toothless.jpg");
+  background-image: url("/assets/toothless.jpg");
   background-size: cover;
 
-  mask-image: url("mask-sheet.png");
+  mask-image: url("/assets/mask-sheet.png");
   mask-size: cover;
   mask-position: 0% 0%;
   mask-repeat: no-repeat;
-  -webkit-mask-image: url("mask-sheet.png");
+  -webkit-mask-image: url("/assets/mask-sheet.png");
   -webkit-mask-size: cover;
   -webkit-mask-position: 0% 0%;
   -webkit-mask-repeat: no-repeat;
