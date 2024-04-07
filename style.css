@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+button {
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3rem;
+  z-index: 1;
+}
+
+.mask-container {
+  position: relative;
+}
+
+.color-image {
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  background-image: url("toothless.jpg");
+  background-size: cover;
+
+  mask-image: url("mask-sheet.png");
+  mask-size: cover;
+  mask-position: 0% 0%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url("mask-sheet.png");
+  -webkit-mask-size: cover;
+  -webkit-mask-position: 0% 0%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.mask-animation {
+  animation: addColor 700ms steps(17) forwards;
+}
+
+img {
+  width: 50%;
+  display: block;
+}
+
+@keyframes addColor {
+  0% {
+    mask-position: 0% 0%;
+    -webkit-mask-position: 0% 0%;
+  }
+  100% {
+    mask-position: 100% 0%;
+    -webkit-mask-position: 100% 0%;
+  }
+}
