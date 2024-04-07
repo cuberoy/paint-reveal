@@ -3,6 +3,8 @@
 - HTML, CSS & JS
 
 # Demo
+[demo site](https://paint-reveal-cuberoy.netlify.app)
+
 <img src="https://github.com/cuberoy/paint-reveal/blob/main/demo.gif">
 
 ## License
