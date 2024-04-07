@@ -19,7 +19,7 @@ button {
 .color-image {
   position: absolute;
   inset: 0;
-  width: 50%;
+  width: 100%;
   background-image: url("toothless.jpg");
   background-size: cover;
 
@@ -38,7 +38,7 @@ button {
 }
 
 img {
-  width: 50%;
+  width: 100%;
   display: block;
 }
 
