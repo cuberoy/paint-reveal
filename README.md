@@ -3,7 +3,7 @@
 - HTML, CSS & JS
 
 # Demo
-[demo site](https://paint-reveal-cuberoy.netlify.app)
+[demo site](https://https://app.cuberoy.com/paint-reveal)
 
 <img src="https://github.com/cuberoy/paint-reveal/blob/main/demo.gif">
 
