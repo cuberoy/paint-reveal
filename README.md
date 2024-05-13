@@ -1,9 +1,9 @@
 # About
-- Reveal paint image from drawing using image masking
+- Reveal colored image from a sketch drawing using image masking
 - HTML, CSS & JS
 
 # Demo
-[demo site](https://https://app.cuberoy.com/paint-reveal)
+[demo site](https://app.cuberoy.com/paint-reveal)
 
 <img src="https://github.com/cuberoy/paint-reveal/blob/main/demo.gif">
 
